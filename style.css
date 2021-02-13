@@ -18,9 +18,14 @@ h1{
 
 }
 
+/*description of code in card*/
+.desc{
+    
+}
+
 /*code in card*/
 .code{
-
+    user-select: all;
 }
 
 .tab{
