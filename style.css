@@ -36,6 +36,10 @@ h1{
     user-select: all;
     font-style: italic;
     font-family: serif;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
 }
 
 .tab{
