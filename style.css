@@ -1,7 +1,20 @@
 :root{
     --heading-color: rgb(3, 231, 231);
-    --background-color: rgb(0, 0, 0);
+    --font-family: 'sans serif';
+    
 
+}
+
+body{ 
+    background-color: rgb(53, 52, 52);
+    font-family: sans-serif;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    
 }
 
 h1{
@@ -9,22 +22,43 @@ h1{
     color: var(--heading-color);
     background-color: var(--background-color);
 }
-.wrapper{
+section{
+    color: rgb(3, 231, 231);
+    font-size: 20px;
 
 }
 
+summary{
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.desc{
+    color:turquoise;
+    font-size: 10pt;
+
+}
+
+
 /*box containing title, description, and code snippet*/
 .card{
+    background-color: rgb(53, 52, 52); 
+    
 
 }
 
 /*code in card*/
 .code{
+    background-color:rgb(3, 231, 231);  
+   
+    
 
 }
 
 .tab{
     margin-left: 10px;
+    background-color:rgb(3, 231, 231);
+   
     /*fix the line break before p class tab stuff*/
 }
 /*Tablet*/
