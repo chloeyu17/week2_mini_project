@@ -27,13 +27,23 @@ h1{
     margin-left: 10px;
     /*fix the line break before p class tab stuff*/
 }
+
+/*Desktop*/
+@media screen and (max-width: 992px) {
+    .wrapper {
+        width: 33%;
+    }
+}
 /*Tablet*/
-@media screen and (max-width: 992px){
-
-
+@media screen and (max-width: 768px){
+    .wrapper {
+        width: 50%;
+    }
 }
 
 /*Mobile Device*/
 @media screen and (max-width: 768px){
-
+    .wrapper {
+        width: 100%;
+    }
 }
