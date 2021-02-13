@@ -20,74 +20,93 @@
             <details>
                 <summary>Flexbox Row</summary>
                 <p class="desc">Use these three properties to create a Flexbox row layout</p>
-                <p class="code">.row{ </p>
-                <p class="tab">display: flex;<br>
-                               flex-direction: row; <br> 
-                               flex-wrap: wrap; <br> 
-                               }</p>
+                <pre class="code">
+.row{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+                </pre>
             </details>
         </article>
 
         <article class="card">
             <details>
-                <summary>Flexbox Row</summary>
-                <p class="desc">Use these three properties to create a Flexbox row layout</p>
-                <p class="code">.row{ </p>
-                <p class="tab">display: flex;<br>
-                               flex-direction: row; <br> 
-                               flex-wrap: wrap; <br> 
-                               }</p>
+                <summary>Flexbox Column</summary>
+                <p class="desc">Use this to create a Flexbox column layout</p>
+                <pre class="code">
+.column{
+    display: flex;
+    flex-direction: column;
+}
+                </pre>
             </details>
         </article>
 
         <article class="card">
             <details>
-                <summary>Flexbox Row</summary>
-                <p class="desc">Use these three properties to create a Flexbox row layout</p>
-                <p class="code">.row{ </p>
-                <p class="tab">display: flex;<br>
-                               flex-direction: row; <br> 
-                               flex-wrap: wrap; <br> 
-                               }</p>
+                <summary>CSS Grid Layout</summary>
+                <p class="desc"> Build a 12-column layout using CSS Grid</p>
+                <pre class="code">
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+}
+                </pre>
             </details>
         </article>
 
-        <article class="card">
+        <article class="card2">
             <details>
-                <summary>Flexbox Row</summary>
-                <p class="desc">Use these three properties to create a Flexbox row layout</p>
-                <p class="code">.row{ </p>
-                <p class="tab">display: flex;<br>
-                               flex-direction: row; <br> 
-                               flex-wrap: wrap; <br> 
-                               }</p>
+                <summary>Linear Gradients</summary>
+                <p class="desc">This will create a background linear gradient from top to bottom</p>
+                <pre class="code">
+.linear-gradient-background {
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
+    );
+}
+                </pre>
             </details>
         </article>
 
-        <article class="card">
+        <article class="card2">
             <details>
-                <summary>Flexbox Row</summary>
-                <p class="desc">Use these three properties to create a Flexbox row layout</p>
-                <p class="code">.row{ </p>
-                <p class="tab">display: flex;<br>
-                               flex-direction: row; <br> 
-                               flex-wrap: wrap; <br> 
-                               }</p>
+                <summary>Box Transition Glow</summary>
+                <p class="desc">Use transition and box shadows to glow on hover</p>
+                <pre class="code">
+.code-card .card-header{
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px
+        rgba(232, 102, 236, 1), 0 0 15px
+        rgba(232, 102, 236, 1);
+}
+                </pre>
             </details>
         </article>
 
-        <article class="card">
+        <article class="card2">
             <details>
-                <summary>Flexbox Row</summary>
-                <p class="desc">Use these three properties to create a Flexbox row layout</p>
-                <p class="code">.row{ </p>
-                <p class="tab">display: flex;<br>
-                               flex-direction: row; <br> 
-                               flex-wrap: wrap; <br> 
-                               }</p>
+                <summary>Overlay Card with Title</summary>
+                <p class="desc">Use position properties and negative margins 
+                    to raise elements higher than their natural starting point.</p>
+                <pre class="code">
+.card-header{
+    position: relative;
+    margin-top: -20px;
+}
+                </pre>
             </details>
         </article>
     </section>
 
+    <!-- <footer>Made with love and CSS </footer> -->
 </body>
 </html>
