@@ -1,7 +1,32 @@
 :root{
+    --heading-color: rgb(3, 231, 231);
+    --background-color: rgb(0, 0, 0);
 
 }
 
+h1{
+    text-align: center;
+    color: var(--heading-color);
+    background-color: var(--background-color);
+}
+.wrapper{
+
+}
+
+/*box containing title, description, and code snippet*/
+.card{
+
+}
+
+/*code in card*/
+.code{
+
+}
+
+.tab{
+    margin-left: 10px;
+    /*fix the line break before p class tab stuff*/
+}
 /*Tablet*/
 @media screen and (max-width: 992px){
 
