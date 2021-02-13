@@ -18,15 +18,15 @@ h1{
 
 }
 
+/*description of the CSS property*/
+.desc{
+
+}
 /*code in card*/
 .code{
-
+    user-select: all;
 }
 
-.tab{
-    margin-left: 10px;
-    /*fix the line break before p class tab stuff*/
-}
 /*Tablet*/
 @media screen and (max-width: 992px){
 
