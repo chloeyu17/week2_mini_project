@@ -1,5 +1,25 @@
 :root {
     --heading-color: rgb(3, 231, 231);
+<<<<<<< HEAD
+    --font-family: 'sans serif';
+    
+
+}
+
+body{ 
+    background-color: rgb(53, 52, 52);
+    font-family: sans-serif;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+h1{
+=======
     --background-color: rgb(0, 0, 0);
     --text-color: white;
     --body-color: rgb(53,52,52);
@@ -7,6 +27,7 @@
 }
 
 h1 {
+>>>>>>> 08e46a2556264d172832127282dba5260e4a463a
     text-align: center;
     color: var(--heading-color);
     background-color: var(--background-color); 
@@ -28,6 +49,12 @@ article{
     font-size: 20px;
     background-color: var(--background-color);
 }
+<<<<<<< HEAD
+section{
+    color: rgb(3, 231, 231);
+    font-size: 20px;
+=======
+>>>>>>> 08e46a2556264d172832127282dba5260e4a463a
 
 summary{
     font-weight:bold;
@@ -40,6 +67,25 @@ summary{
     margin: 10px;
     flex-flow: row wrap;
 }
+<<<<<<< HEAD
+
+summary{
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.desc{
+    color:turquoise;
+    font-size: 10pt;
+
+}
+
+
+/*box containing title, description, and code snippet*/
+.card{
+    background-color: rgb(53, 52, 52); 
+    
+=======
 /*box containing title, description, and code snippet*/
 .card {
     display: flex;
@@ -48,6 +94,7 @@ summary{
     border: 2px dashed;
     padding: 10px;
 }
+>>>>>>> 08e46a2556264d172832127282dba5260e4a463a
 
 .card2 {
     display: flex;
@@ -57,6 +104,14 @@ summary{
     padding: 10px;
 }
 
+<<<<<<< HEAD
+/*code in card*/
+.code{
+    background-color:rgb(3, 231, 231);  
+   
+    
+=======
+>>>>>>> 08e46a2556264d172832127282dba5260e4a463a
 
 /*description of code in card*/
 .desc{
@@ -77,6 +132,8 @@ summary{
 
 .tab {
     margin-left: 10px;
+    background-color:rgb(3, 231, 231);
+   
     /*fix the line break before p class tab stuff*/
 }
 
