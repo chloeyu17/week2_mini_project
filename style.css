@@ -1,12 +1,36 @@
 :root {
     --heading-color: rgb(3, 231, 231);
     --background-color: rgb(0, 0, 0);
+    --text-color: white;
+    --body-color: rgb(53,52,52);
+    --content-font: sans-serif;
 }
 
 h1 {
     text-align: center;
     color: var(--heading-color);
+    background-color: var(--background-color); 
+}
+
+body{
+    background-color: var(--body-color);
+    font-family: var(--content-font);
+}
+
+p{
+    color: var(--text-color);
+    font-family: var(--content-font);
+    text-align: center;
+}
+
+article{
+    color: var(--heading-color);
+    font-size: 20px;
     background-color: var(--background-color);
+}
+
+summary{
+    font-weight:bold;
 }
 
 .wrapper {
