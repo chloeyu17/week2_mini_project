@@ -31,16 +31,10 @@ h2 {
 body {
     background-color: var(--body-color);
     font-family: var(--content-font);
-    
-}
-
-p {
     color: var(--text-color);
-    font-family: var(--content-font);
     text-align: center;
     font-size: 16px;
 }
-
 
 /*Flex container for the page*/
 .wrapper {
@@ -54,19 +48,14 @@ p {
 .card {
     color: var(--heading-color);
     background-color: var(--background-color);
-    font-size: 20px;
+    font-size: 12px;
     display: flex;
     flex-flow: column nowrap;
     flex-basis: 25%;
     margin: var(--margin);
     border: 2px solid;
     padding: var(--padding);
-    transition: background ease-in-out 1, color 1s;
-}
-
-/*Description of code in card*/
-.card p{
-    font-size: 12px;
+    transition: background 5s, color;
 }
 
 /*Code snippet in card can be selected on click and has a gradient background*/
@@ -74,13 +63,13 @@ p {
     user-select: all;
     background: linear-gradient(var(--snip-color1), var(--snip-color2));
     font-style: oblique 10deg;
-    font-family: var(--content-font);
     color: var(--text-color);
     padding: var(--padding);
     font-size: 12px;
     flex: 1 0 0;
     border: 1px solid;
     border-color: var(--heading-color);
+    text-align: left;
 }
 
 /*Transition Animation*/
@@ -91,9 +80,7 @@ p {
 
 /*Footer*/
 footer{
-    text-align: center;
     margin: var(--margin);
-    color: var(--text-color);
     font-weight: 500;
 }
 /*Tablet*/
