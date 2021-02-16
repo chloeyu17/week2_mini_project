@@ -5,8 +5,9 @@
     --body-color: rgb(53,52,52);
     --content-font: sans-serif;
     --margin: 20px;
-    --snip-color1: #009aa5;
+    --snip-color1: #00666d;
     --snip-color2: #274a85;
+    --snip-color3: #0d004b;
     --padding: 10px;
 }
 
@@ -57,9 +58,9 @@ p {
     flex-flow: column nowrap;
     flex-basis: 25%;
     margin: var(--margin);
-    border: 2px dashed;
+    border: 2px solid;
     padding: var(--padding);
-    transition: background 2s, color 1s;
+    transition: background ease-in-out 1, color 1s;
 }
 
 /*Description of code in card*/
@@ -77,13 +78,23 @@ p {
     padding: var(--padding);
     font-size: 12px;
     flex: 1 0 0;
+    border: 1px solid;
+    border-color: var(--heading-color);
 }
 
 /*Transition Animation*/
 .card:hover{
-    background: linear-gradient(var(--background-color), var(--snip-color2));
+    background: linear-gradient(var(--background-color), var(--snip-color3), var(--background-color));
     color: var(--text-color);
+}
 
+/*Footer*/
+footer{
+    text-align: center;
+    margin: var(--margin);
+    color: var(--text-color);
+    font-weight: 500;
+}
 /*Tablet*/
 @media screen and (max-width: 992px) {
     .card {
