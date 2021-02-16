@@ -7,6 +7,7 @@
     --margin: 20px;
     --snip-color1: #009aa5;
     --snip-color2: #274a85;
+    --padding: 10px;
 }
 
 /*Basic Formatting*/
@@ -15,7 +16,7 @@ h1 {
     color: var(--heading-color);
     background-color: var(--background-color); 
     font-size:36px;
-    padding: 10px;
+    padding: var(--padding);
 }
 
 h2 {
@@ -57,7 +58,8 @@ p {
     flex-basis: 25%;
     margin: var(--margin);
     border: 2px dashed;
-    padding: 10px;
+    padding: var(--padding);
+    transition: background 2s, color 1s;
 }
 
 /*Description of code in card*/
@@ -72,10 +74,15 @@ p {
     font-style: oblique 10deg;
     font-family: var(--content-font);
     color: var(--text-color);
-    padding: 10px;
+    padding: var(--padding);
     font-size: 12px;
     flex: 1 0 0;
 }
+
+/*Transition Animation*/
+.card:hover{
+    background: linear-gradient(var(--background-color), var(--snip-color2));
+    color: var(--text-color);
 
 /*Tablet*/
 @media screen and (max-width: 992px) {
